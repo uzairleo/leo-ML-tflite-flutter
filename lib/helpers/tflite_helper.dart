@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:camera/camera.dart';
-import 'package:tensorflow_lite_flutter/models/result.dart';
+import 'package:leo_mltflite_flutter/models/result.dart';
 import 'package:tflite/tflite.dart';
 
 import 'app_helper.dart';

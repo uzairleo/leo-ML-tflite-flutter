@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:leo_mltf/screens/detect_screen.dart';
+import 'package:leo_mltflite_flutter/screens/detect_screen.dart';
 
 void main() => runApp(MyApp());
 

@@ -1,8 +1,8 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:tensorflow_lite_flutter/helpers/app_helper.dart';
-import 'package:tensorflow_lite_flutter/helpers/tflite_helper.dart';
+import 'package:leo_mltflite_flutter/helpers/app_helper.dart';
+import 'package:leo_mltflite_flutter/helpers/tflite_helper.dart';
 
 class CameraHelper {
   static CameraController camera;
