@@ -1,6 +1,29 @@
-# leo_mltflite_flutter
+# leo+ML(tflite)+flutter
 
-A new Flutter project.
+A flutter app to demonstrate usage of tensor flow lite Machine Learning.
+
+![App Demo](pictures/image1.gif)
+![Teachable Machine](pictures/image2.gif)
+
+
+## Labels
+
+| Class Id | Label Name |
+| ------------- | ------------- |
+| 0 | Black Texture  |
+| 1  | Blue Texture  |
+| 2  | Green Texture  |
+| 3 | Orange Texture  |
+| 4  | Pink Texture |
+| 5  | Purple Texture  |
+| 6  | Red Texture  |
+| 7 | White Texture  |
+| 8 | Yellow Texture  |
+
+
+The "TensorFlow" model is trained using [Teachable Machines](https://teachablemachine.withgoogle.com/train). The model is trained with different texture colors of walls. App will recognize the color and classify the color according to best match. This app will load a pre-trained model and start classification on frames received from Camera Controller. App will show results in real-time along with confidence percentages.
+
+
 
 ## Getting Started
 

@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     ]);
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      title: 'Detect color of different textures',
+      title: 'uzair leo ML color detector ',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
